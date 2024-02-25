@@ -1,14 +1,10 @@
+<script setup>
+ import KyMir from './components/KyMir.vue';
+</script>
+
+
 <template>
-  <div>Hello {{ value }}</div>
+  <KyMir/>
 </template>
 
-<script>
-export default {
-  name: "App",
-  data() {
-    return {
-      value: "World"
-    };
-  }
-};
-</script>
+
